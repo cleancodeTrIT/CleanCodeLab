@@ -1,0 +1,31 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "eslint:recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "complexity": ["error", { "max": 8 }],
+    "max-depth": ["error", 2],
+    "max-lines": ["warn", 160],
+    "max-lines-per-function": ["warn", 20],
+    "max-nested-callbacks": ["error", 1],
+    "max-params": ["warn", 2],
+    "no-magic-numbers": [
+      "warn",
+      { "detectObjects": false, "enforceConst": true, "ignore": [0, 1], "ignoreArrayIndexes": true }
+    ],
+    "no-multiple-empty-lines": ["warn", { "max": 2, "maxEOF": 1 }],
+    "no-nested-ternary": "error",
+    "no-unused-vars": ["warn"],
+    "@typescript-eslint/no-use-before-define": "off"
+  },
+  "plugins": ["prettier"]
+}
