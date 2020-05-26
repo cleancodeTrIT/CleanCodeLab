@@ -1,12 +1,8 @@
 # Name
 
-Laboratories for [Clean Code course](https://github.com/BitAdemy/CleanCode)
+## CleanCodeLab
 
-Lesson [1- Name](https://github.com/BitAdemy/CleanCode/tree/NAME)
-
-### On CodeSandbox
-
-https://codesandbox.io/s/github/LabsAdemy/CleanCodeLab/tree/NAME
+Laboratories for [TrainingIT Clean Code course](https://trainingit.es/curso-clean-code/)
 
 ## Local Configuration
 
@@ -23,5 +19,3 @@ https://codesandbox.io/s/github/LabsAdemy/CleanCodeLab/tree/NAME
 ### [💪 2 - verbs](./src/examples/2-verbs)
 
 ## [💻 Tasks](./src/tasks)
-
-> by [bitAdemy](https://bitademy.com)
