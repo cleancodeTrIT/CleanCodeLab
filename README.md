@@ -1,12 +1,8 @@
 # Function
 
-Laboratories for [Clean Code course](https://github.com/BitAdemy/CleanCode)
+## CleanCodeLab
 
-Lesson [2 - Function](https://github.com/BitAdemy/CleanCode/tree/FUNCTION)
-
-## On CodeSandbox
-
-https://codesandbox.io/s/github/LabsAdemy/CleanCodeLab/tree/FUNCTION
+Laboratories for [TrainingIT Clean Code course](https://trainingit.es/curso-clean-code/)
 
 ## Local Configuration
 
