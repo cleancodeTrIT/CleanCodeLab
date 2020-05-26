@@ -17,7 +17,10 @@
     "statusBarItem.hoverBackground": "#27c2a0",
     "statusBar.foreground": "#15202b",
     "editorError.foreground": "#907080",
-    "editorWarning.foreground": "#708090"
+    "editorWarning.foreground": "#708090",
+    "activityBar.activeBackground": "#6de2c8",
+    "statusBar.border": "#43d9b8",
+    "titleBar.border": "#43d9b8"
   },
   "peacock.color": "#43d9b8",
   "workbench.iconTheme": "material-icon-theme",
