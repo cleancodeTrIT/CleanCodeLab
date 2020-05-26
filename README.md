@@ -17,5 +17,3 @@ Laboratories for [TrainingIT Clean Code course](https://trainingit.es/curso-clea
 ### [🧩 3 - Functions](https://github.com/LabsAdemy/CleanCodeLab/tree/FUNCTION/src/examples/3-functions)
 
 ## [💻 Tasks](https://github.com/LabsAdemy/CleanCodeLab/tree/FUNCTION/src/tasks)
-
-> by [bitAdemy](https://bitademy.com)
