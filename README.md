@@ -1,12 +1,8 @@
 # Function
 
-Laboratories for [Clean Code course](https://github.com/BitAdemy/CleanCode)
+## CleanCodeLab
 
-Lesson [3 - Data](https://github.com/BitAdemy/CleanCode/tree/DATA)
-
-## On CodeSandbox
-
-https://codesandbox.io/s/github/LabsAdemy/CleanCodeLab/tree/DATA
+Laboratories for [TrainingIT Clean Code course](https://trainingit.es/curso-clean-code/)
 
 ## Examples
 
@@ -15,5 +11,3 @@ https://codesandbox.io/s/github/LabsAdemy/CleanCodeLab/tree/DATA
 ### [📜 2 - Algorithms](https://github.com/LabsAdemy/CleanCodeLab/tree/DATA/src/examples/2-algorithms)
 
 ## [💻 Tasks](https://github.com/LabsAdemy/CleanCodeLab/tree/DATA/src/tasks)
-
-> by [bitAdemy](https://bitademy.com)
