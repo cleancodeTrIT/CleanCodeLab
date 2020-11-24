@@ -17,9 +17,7 @@
     "statusBar.foreground": "#15202b",
     "editorError.foreground": "#708090",
     "editorWarning.foreground": "#A9A9A9",
-    "activityBar.activeBackground": "#6de2c8",
-    "statusBar.border": "#43d9b8",
-    "titleBar.border": "#43d9b8"
+    "activityBar.activeBackground": "#6de2c8"
   },
   "peacock.color": "#43d9b8",
   "workbench.iconTheme": "material-icon-theme",
