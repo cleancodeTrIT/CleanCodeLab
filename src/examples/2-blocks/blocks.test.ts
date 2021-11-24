@@ -3,7 +3,7 @@
 /* eslint-disable max-lines-per-function */
 // ❌ import { getSquaredPrimes, printSomethingEveryPrimeSecond } from './blocks_bad';
 // ❌
-import { getPrimes, getSquaredPrimes } from './blocks_ok';
+import { getPrimes, getSquaredOfPrimes } from './blocks_ok';
 
 describe('sieve of Eratosthenes', () => {
   test('no primes under two', () => {
@@ -29,6 +29,6 @@ describe('sieve of Eratosthenes', () => {
 
 describe('getting squared primes', () => {
   test('get an array of the first 4 primes squared', () => {
-    expect(getSquaredPrimes()).toEqual([4, 9, 25, 49]);
+    expect(getSquaredOfPrimes()).toEqual([4, 9, 25, 49]);
   });
 });

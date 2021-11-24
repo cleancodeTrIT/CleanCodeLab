@@ -24,14 +24,16 @@ export function getPrimes(limit: number): number[] {
 }
 
 // ❌ three arrows
-export function getSquaredPrimes(): number[] {
+export function getSquaredOfPrimes(): number[] {
   // eslint-disable-next-line no-magic-numbers
   const NATURAL_NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
   const squaredPrimes = [];
+
   NATURAL_NUMBERS.filter(n => {
     const FIRST_PRIME = 2;
     const NULL_REMAINDER = 0;
-    const MAX_PRIME = Math.floor(Math.sqrt(n));
+    const MAX_PRIME = Math.floor(Math.sqrt(n)); // ❌ complex logic
     let isPrime = n !== 1;
     for (let i = FIRST_PRIME; i < MAX_PRIME + 1; i++) {
       // ❌ avoid complex conditionals
@@ -44,8 +46,10 @@ export function getSquaredPrimes(): number[] {
   })
     .map(n => n * n)
     .forEach(n => {
+      // ❌ levels os abstraction
       squaredPrimes.push(n);
-      console.log(`There are ${squaredPrimes.length} primes`);
+      console.log(`Added ${n} as the square of a prime number`);
+      console.log(`Calculated ${squaredPrimes.length} primes`);
     });
   return squaredPrimes;
 }

@@ -2,7 +2,7 @@
 /* eslint-disable max-nested-callbacks */
 /* eslint-disable no-magic-numbers */
 // import { getErrorMessage, Words, writeMessageLog } from './functions_bad';
-import { getErrorMessage, Words, writeErrorMessageLog, writeMessageLog } from './functions_ok';
+import { countWords, getErrorMessage } from './functions_ok';
 
 describe('getErrorMessage()', () => {
   test('shows message when there is an error and form was touched', () => {
@@ -25,46 +25,26 @@ describe('getErrorMessage()', () => {
   });
 });
 
-describe('writeMessageLog()', () => {
-  test('writes an error message', () => {
-    const message = 'Required data empty';
-    const isError = true;
-    // expect(writeMessageLog(message, isError)).toEqual(undefined);
-    expect(isError ? writeErrorMessageLog(message) : writeMessageLog(message)).toEqual(undefined);
-  });
-  test('writes an normal message', () => {
-    const message = 'Application started';
-    const isError = false;
-    // expect(writeMessageLog(message, isError)).toEqual(undefined);
-    expect(isError ? writeErrorMessageLog(message) : writeMessageLog(message)).toEqual(undefined);
-  });
-});
-
 describe('words()', () => {
-  let words: Words;
-  beforeEach(() => {
-    words = new Words();
-  });
-
   test('throw error on null or undefined', () => {
     expect(() => {
-      words.count(null);
+      countWords(null);
     }).toThrow();
   });
 
   test('counts empty', () => {
     const expectedCounts = {};
-    expect(words.count('  ')).toEqual(expectedCounts);
+    expect(countWords('  ')).toEqual(expectedCounts);
   });
 
   test('counts one word', () => {
     const expectedCounts = { word: 1 };
-    expect(words.count('word')).toEqual(expectedCounts);
+    expect(countWords('word')).toEqual(expectedCounts);
   });
 
   test('counts one of each', () => {
     const expectedCounts = { one: 1, of: 1, each: 1 };
-    expect(words.count('one of each')).toEqual(expectedCounts);
+    expect(countWords('one of each')).toEqual(expectedCounts);
   });
 
   test('counts multiple occurrences', () => {
@@ -75,7 +55,7 @@ describe('words()', () => {
       red: 1,
       blue: 1,
     };
-    expect(words.count('one fish two fish red fish blue fish')).toEqual(expectedCounts);
+    expect(countWords('one fish two fish red fish blue fish')).toEqual(expectedCounts);
   });
 
   test('includes punctuation', () => {
@@ -87,17 +67,17 @@ describe('words()', () => {
       java: 1,
       'javascript!!&@$%^&': 1,
     };
-    expect(words.count('car : carpet as java : JavaScript!!&@$%^&')).toEqual(expectedCounts);
+    expect(countWords('car : carpet as java : JavaScript!!&@$%^&')).toEqual(expectedCounts);
   });
 
   test('includes numbers', () => {
     const expectedCounts = { testing: 2, 1: 1, 2: 1 };
-    expect(words.count('testing 1 2 testing')).toEqual(expectedCounts);
+    expect(countWords('testing 1 2 testing')).toEqual(expectedCounts);
   });
 
   test('normalizes to lower case', () => {
     const expectedCounts = { go: 3 };
-    expect(words.count('go Go GO')).toEqual(expectedCounts);
+    expect(countWords('go Go GO')).toEqual(expectedCounts);
   });
 
   test('counts properly international characters', () => {
@@ -107,27 +87,27 @@ describe('words()', () => {
       'tal?': 1,
       'привет!': 1,
     };
-    expect(words.count('¡Hola! ¿Qué tal? Привет!')).toEqual(expectedCounts);
+    expect(countWords('¡Hola! ¿Qué tal? Привет!')).toEqual(expectedCounts);
   });
 
   test('counts multiline', () => {
     const expectedCounts = { hello: 1, world: 1 };
-    expect(words.count('hello\nworld')).toEqual(expectedCounts);
+    expect(countWords('hello\nworld')).toEqual(expectedCounts);
   });
 
   test('counts tabs', () => {
     const expectedCounts = { hello: 1, world: 1 };
-    expect(words.count('hello\tworld')).toEqual(expectedCounts);
+    expect(countWords('hello\tworld')).toEqual(expectedCounts);
   });
 
   test('counts multiple spaces as one', () => {
     const expectedCounts = { hello: 1, world: 1 };
-    expect(words.count('hello  world')).toEqual(expectedCounts);
+    expect(countWords('hello  world')).toEqual(expectedCounts);
   });
 
   test('does not count leading or trailing whitespace', () => {
     const expectedCounts = { introductory: 1, course: 1 };
-    expect(words.count('\t\tIntroductory Course      ')).toEqual(expectedCounts);
+    expect(countWords('\t\tIntroductory Course      ')).toEqual(expectedCounts);
   });
 
   test('handles properties that exist on Object’s prototype', () => {
@@ -138,6 +118,6 @@ describe('words()', () => {
       tostring: 1,
       'ok?': 1,
     };
-    expect(words.count('reserved words like toString ok?')).toEqual(expectedCounts);
+    expect(countWords('reserved words like toString ok?')).toEqual(expectedCounts);
   });
 });
