@@ -8,11 +8,9 @@ Feel free to change it and adapt it to your liking.
 
 - **Material Icon Theme** pkief.material-icon-theme
 
-- **Night Owl** sdras.night-owl
-
 - **Prettier** - Code formatter esbenp.prettier-vscode
 
-- **Spell Right** ban.spellright
+- **Code Spell Checker** streetsidesoftware.code-spell-checker
 
 ---
 
@@ -22,24 +20,7 @@ Feel free to change it and adapt it to your liking.
 
 ```json
 {
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#6de2c8",
-    "activityBar.activeBorder": "#c35fdf",
-    "activityBar.foreground": "#15202b",
-    "activityBar.inactiveForeground": "#15202b99",
-    "activityBarBadge.background": "#c35fdf",
-    "activityBarBadge.foreground": "#15202b",
-    "titleBar.activeBackground": "#43d9b8",
-    "titleBar.inactiveBackground": "#43d9b899",
-    "titleBar.activeForeground": "#15202b",
-    "titleBar.inactiveForeground": "#15202b99",
-    "statusBar.background": "#43d9b8",
-    "statusBarItem.hoverBackground": "#27c2a0",
-    "statusBar.foreground": "#15202b"
-  },
-  "peacock.color": "#43d9b8",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Night Owl Light",
   "spellright.language": ["en", "es"],
   "spellright.documentTypes": ["markdown", "latex", "plaintext"],
   "editor.formatOnSave": true,

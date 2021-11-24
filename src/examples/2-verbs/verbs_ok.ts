@@ -1,17 +1,45 @@
-const ACTIVE = 2;
-// ✔️ Bad nouns
+// ✔️ Bad verbs
 export class Client {
-  registeredOn: Date; // ✔️ complete pronounceable
-  name: string; // ✔️ redundant
-  balance: number; // ✔️ no technical prefix
-  status = ACTIVE; // ✔️ no magic number
-  numberOfSupliedOrders: number; // ✔️ same vocabulary
-  orders: object[]; // ✔️ redundant
-  processOrders(): void {
-    this.orders.forEach(order => {
-      console.log('Start processing');
-      console.log('processing things');
-      console.log('Ended with' + order); // ✔️ avoid mental mapping
-    });
+  hasPendingOrders: boolean; //✔️ boolean verbs on flag variables
+  lastOrderDate: Date;
+  canDeferPayment: boolean; //✔️ boolean verbs on flag variables
+  // ✔️ vertical declaration order
+  isVIP: boolean;
+  //
+  // Constructor
+  //
+  constructor() {
+    this.hasPendingOrders = false;
+  }
+
+  // ✔️ show intention
+  getPendingOrders(): object[] {
+    return [];
+  }
+
+  //✔️ good names require no comment
+  // Gets the orders by status
+  getOrdersBy(status: number): object[] {
+    console.log('Getting by ', status);
+    return [];
+  }
+
+  // ✔️ return what is expected
+  hasCredit(): boolean {
+    if (this.isVIP || this.canDeferPayment) return true;
+  }
+
+  // ✔️ same verb for same action
+  getLastOrder(): object {
+    return {};
+  }
+
+  // ✔️ return what is expected
+  getActiveStatus(): string {
+    if (this.hasPendingOrders || this.isVIP) {
+      return 'ACTIVE';
+    } else {
+      return 'INACTIVE';
+    }
   }
 }

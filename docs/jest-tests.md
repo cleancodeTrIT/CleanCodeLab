@@ -6,11 +6,9 @@ Configuration for running unit tests with [Jest](https://jestjs.io/)
 
 ```bash
 # Install Jest
-npm install -D jest
-yarn add -D jest
+npm install -D jest typescript ts-jest
+yarn add -D jest typescript ts-jest
 yarn jest --init
-yarn add --dev babel-jest @babel/core @babel/preset-env
-yarn add --dev @babel/preset-typescript
 yarn add --dev @types/jest
 ```
 
@@ -27,25 +25,6 @@ module.exports = {
 
 ---
 
-## Babel
-
-`babel.config.js`
-
-```js
-module.exports = {
-  presets: [
-    [
-      '@babel/preset-env',
-      {
-        targets: {
-          node: 'current',
-        },
-      },
-      '@babel/preset-typescript',
-    ],
-  ],
-};
-```
 
 ## Package Json scripts
 
@@ -55,7 +34,7 @@ module.exports = {
 {
   "scripts": {
     "test": "jest --watch -o",
-    "jest": "jest"
+    "jest": "jest --verbose"
   }
 }
 ```

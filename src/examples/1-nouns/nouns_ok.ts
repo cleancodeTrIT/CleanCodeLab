@@ -5,7 +5,7 @@ export class Client {
   name: string; // ✔️ redundant
   balance: number; // ✔️ no technical prefix
   status = ACTIVE; // ✔️ no magic number
-  numberOfSupliedOrders: number; // ✔️ same vocabulary
+  numberOfSuppliedOrders: number; // ✔️ same vocabulary well spelled
   orders: object[]; // ✔️ redundant
   processOrders(): void {
     this.orders.forEach(order => {

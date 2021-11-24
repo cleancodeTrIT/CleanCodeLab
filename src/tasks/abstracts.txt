@@ -1,0 +1,4 @@
+MeetingsCollection -> Schedule
+NotesArray -> NoteBook
+LogCollector  -> Journal
+AbstractTransportation -> Vehicle

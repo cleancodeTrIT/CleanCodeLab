@@ -10,29 +10,29 @@ export class Client {
     this.pendingOrders = false;
   }
 
-  //❌ show intention
+  // ❌ show intention
   pending(): object[] {
     return [];
   }
 
-  //❌ good names require no comment
+  // ❌ good names require no comment
   // Gets the orders by status
   getOrders(status: number): object[] {
     console.log('Getting by ', status);
     return [];
   }
 
-  //❌ return what is expected
+  // ❌ return what is expected
   credit(): boolean {
     if (this.isVIP || this.deferPayment) return true;
   }
 
-  //❌ same verb for same action
+  // ❌ same verb for same action
   selectLastOrder(): object {
     return {};
   }
 
-  //❌ return what is expected
+  // ❌ return what is expected
   isActive(): string {
     if (this.pendingOrders || this.isVIP) {
       return 'ACTIVE';

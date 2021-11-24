@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/class-name-casing */
 /* eslint-disable no-magic-numbers */
 // ❌ Bad nouns
 export class client {
