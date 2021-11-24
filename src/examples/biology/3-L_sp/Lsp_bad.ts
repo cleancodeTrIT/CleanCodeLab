@@ -2,9 +2,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Animal } from '../1-S_rp/Srp_ok';
 
-export abstract class Mamal extends Animal {
-  abstract giveBirth(name: string): Mamal;
-  abstract breastFeed(child: Mamal): void;
+export abstract class Mammal extends Animal {
+  abstract giveBirth(name: string): Mammal;
+  abstract breastFeed(child: Mammal): void;
 }
 
 export abstract class Oviparous extends Animal {
@@ -12,12 +12,12 @@ export abstract class Oviparous extends Animal {
 }
 
 // ✔️ extend and implement abstract methods
-export class Whale extends Mamal {
-  giveBirth(name: string): Mamal {
+export class Whale extends Mammal {
+  giveBirth(name: string): Mammal {
     return new Whale(name);
   }
   breastFeed(child: Whale): void {
-    console.log('Feeding my little baby', child);
+    console.log('Feeding my little ', child);
   }
 }
 
@@ -28,26 +28,20 @@ export class ClownFish extends Oviparous {
   }
 }
 
-// ❌ what about giveBirth???
-// ❌ how can I feed may little child???
-export class PlatypusMamal extends Mamal {
-  layEggs(): PlatypusMamal {
-    return new PlatypusMamal('Perry');
-  }
-  giveBirth(): Mamal {
+// ❌ I can´t give birth the way you think
+// ❌ I can breast feed, but who???
+export class PlatypusMammal extends Mammal {
+  giveBirth(): Mammal {
     throw new Error('Method not implemented.');
   }
-  breastFeed(child: PlatypusMamal): void {
-    console.error('I can not get a platypus to feed');
+  breastFeed(child: PlatypusMammal): void {
+    console.error('I do not get a child to feed');
   }
 }
 
-// ❌ I still can't feed my little one :-(
+// ❌ Now I can't feed my little one :-(
 export class PlatypusOviparous extends Oviparous {
   layEggs(name: string): PlatypusOviparous {
     return new PlatypusOviparous(name);
-  }
-  breastFeed(child: PlatypusOviparous): void {
-    console.error('I can not get a platypus to feed');
   }
 }

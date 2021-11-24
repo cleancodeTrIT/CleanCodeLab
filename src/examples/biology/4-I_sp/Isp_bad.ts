@@ -8,6 +8,9 @@ export interface AnimalActivities {
 
 // ❌ what about layEggs???
 export class Mouse extends Animal implements AnimalActivities {
+  layEggs(name: string): Animal {
+    throw new Error('Method not implemented.');
+  }
   giveBirth(name: string): Animal {
     return new Mouse(name);
   }
@@ -17,8 +20,14 @@ export class Mouse extends Animal implements AnimalActivities {
 }
 
 // ❌ what about giveBirth???
-// ❌ breas feeding? seriously???
+// ❌ breast feeding? seriously???
 export class Hen extends Animal implements AnimalActivities {
+  giveBirth(name: string): Animal {
+    throw new Error('Method not implemented.');
+  }
+  breastFeed(child: Animal): void {
+    throw new Error('Method not implemented.');
+  }
   layEggs(name: string): Hen {
     return new Hen(name);
   }

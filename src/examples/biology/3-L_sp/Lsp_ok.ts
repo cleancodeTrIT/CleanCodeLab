@@ -1,8 +1,8 @@
 import { Animal } from '../1-S_rp/Srp_ok';
 
-export abstract class Mamal extends Animal {
-  abstract giveBirth(name: string): Mamal;
-  abstract breastFeed(child: Mamal): void;
+export abstract class Mammal extends Animal {
+  abstract giveBirth(name: string): Mammal;
+  abstract breastFeed(child: Mammal): void;
 }
 
 export abstract class Oviparous extends Animal {
@@ -15,8 +15,8 @@ export abstract class Monotrema extends Animal {
 }
 
 // ✔️ extend and implement abstract methods
-export class Whale extends Mamal {
-  giveBirth(name: string): Mamal {
+export class Whale extends Mammal {
+  giveBirth(name: string): Mammal {
     return new Whale(name);
   }
   breastFeed(child: Whale): void {
@@ -39,3 +39,5 @@ export class Platypus extends Monotrema {
     console.log('Feeding my little baby', child);
   }
 }
+
+// There are other implementations, but involve other principles...

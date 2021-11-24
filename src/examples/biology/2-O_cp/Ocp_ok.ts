@@ -16,6 +16,7 @@ export class Gorilla extends AnimalSoundMaker {
     return 'grunt';
   }
 }
+
 export function makeAnimalsSounds(animals: Array<AnimalSoundMaker>): void {
   animals.forEach(animal => animal.makeSound());
 }
