@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-use-before-define */
-// ✔️
+
+// ✔️ Inheritance used to specialize an strategy and share behavior, not code...
 const PI = 3.14;
 const HALVE = 0.5;
 

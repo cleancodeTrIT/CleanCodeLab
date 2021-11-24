@@ -2,7 +2,7 @@
 /* eslint-disable max-nested-callbacks */
 /* eslint-disable max-lines-per-function */
 // ❌
-import { getArea, getUnitNames, getUnitSymbol } from './algorithms_bad';
+import { getArea, getUnitName, getUnitSymbol } from './algorithms_bad';
 // ✔️
 //import { getArea, getUnitNames, getUnitSymbol } from './algorithms_ok';
 
@@ -33,11 +33,11 @@ describe('Calculate Area', () => {
 
 describe('Get surface units', () => {
   test('We are in the USA', () => {
-    expect(getUnitNames('US')).toEqual('square yards');
+    expect(getUnitName('US')).toEqual('square yards');
     expect(getUnitSymbol('US')).toEqual('yd2');
   });
   test('We are out of the USA', () => {
-    expect(getUnitNames('SI')).toEqual('square metres');
+    expect(getUnitName('SI')).toEqual('square metres');
     expect(getUnitSymbol('SI')).toEqual('m2');
   });
 });

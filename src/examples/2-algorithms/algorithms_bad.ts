@@ -1,4 +1,7 @@
 /* eslint-disable max-lines-per-function */
+
+type Shape = { name: string; base?: number; height?: number; width?: number; radius?: number };
+
 // ❌ high cyclomatic complexity
 export function getArea(shape: Shape): number {
   const PI = 3.14;
@@ -25,10 +28,8 @@ export function getArea(shape: Shape): number {
   return area;
 }
 
-type Shape = { name: string; base?: number; height?: number; width?: number; radius?: number };
-
-// ⚠ it seems a naive if, but...
-export function getUnitNames(measureSystem: string): string {
+// 🚨 it seems a naive if condition, but...
+export function getUnitName(measureSystem: string): string {
   if (measureSystem === 'US') {
     return 'square yards';
   } else {
@@ -44,3 +45,11 @@ export function getUnitSymbol(measureSystem: string): string {
     return 'm2';
   }
 }
+// 🔥 and can need another else or a switch if there is another case
+
+const myMeasureSystem = 'US';
+const myCircle: Shape = { name: 'CIRCLE', radius: 5 };
+const myArea = getArea(myCircle);
+const myUnits = getUnitName(myMeasureSystem);
+const areaDescription = `My ${myCircle.name} occupies an area of ${myArea} ${myUnits}`;
+console.log(areaDescription);

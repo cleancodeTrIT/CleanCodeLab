@@ -3,9 +3,7 @@
 // ❌
 // import { calculateInterest } from './structures_bad';
 // ✔️
-// import { calculateInterest } from './structures_ok';
-// ✔️✔️
-import { calculateInterest } from './structures_better';
+import { calculateInterest } from './structures_ok';
 
 describe('Simple interest calculator', () => {
   test('Get the interest', () => {

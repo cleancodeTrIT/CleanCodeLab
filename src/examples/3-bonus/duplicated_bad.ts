@@ -1,3 +1,30 @@
+// ❌ duplicated data today...
+// ... may be duplicated logic tomorrow
+
+export class Customer {
+  name: string;
+  addressCity: string;
+  addressState: string;
+  taxIdNumber: number;
+}
+
+export class Supplier {
+  name: string;
+  addressCity: string;
+  addressState: string;
+  taxIdNumber: number;
+  accountNumber: string;
+  accountBank: string;
+}
+
+export class Employee {
+  name: string;
+  addressCity: string;
+  addressState: string;
+  accountNumber: string;
+  accountBank: string;
+}
+
 export const customer: Customer = {
   name: 'Road Runner',
   addressCity: 'The Dessert',
@@ -21,27 +48,3 @@ export const employee: Employee = {
   accountNumber: '987654321',
   accountBank: 'Rabbits Bank',
 };
-
-// ❌ avoid inheritance temptation
-// more complexity almost same duplicity
-
-class BasicData {
-  name: string;
-  addressCity: string;
-  addressState: string;
-}
-
-export class Customer extends BasicData {
-  taxIdNumber: number;
-}
-
-export class Supplier extends BasicData {
-  taxIdNumber: number;
-  accountNumber: string;
-  accountBank: string;
-}
-
-export class Employee extends BasicData {
-  accountNumber: string;
-  accountBank: string;
-}
