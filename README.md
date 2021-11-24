@@ -1,9 +1,39 @@
-# Artisan
+# 👨‍🍳 Artesanía: La mejora constante.
 
-Laboratories for [Clean Code course](https://github.com/BitAdemy/CleanCode)
+### Profesionalismo, pragmatismo y orgullo.
 
-Lesson [5 - Artisan](https://github.com/BitAdemy/CleanCode/tree/ARTISAN)
+> "Primero hazlo, luego hazlo bien, luego hazlo mejor."
+>
+> -- ✍️ **Addy Osmani**.
 
-## [💻 Tasks](https://github.com/LabsAdemy/CleanCodeLab/tree/DATA/src/tasks)
+---
 
-> by [bitAdemy](https://bitademy.com)
+## [📝 Hacer las cosas bien](./docs/1-hacer_las_cosas_bien.md)
+
+- Del manifiesto ágil al artesano.
+
+## [✒️ Disciplina y buenos hábitos.](./docs/2-disciplina_y_buenos_habitos.md)
+
+- Ni artista 👩‍🎨 ni operario/a 👨‍🏭
+
+---
+
+## Todo está en los libros:
+
+### Clean Code _(Robert C. Martin.)_
+
+### Extreme Programming _(Kent Beck)_
+
+### Refactoring _(Martin Fowler)_
+
+### The pragmatic programmer _(Hunt & Thomas)_
+
+### The Software Craftsman _(Sandro Mancuso)_
+
+---
+
+> "No importa lo lento vayas mientras no te detengas".
+>
+> -- ✍️ **Confucio**
+
+> by [Alberto Basalo](https://twitter.com/albertobasalo)
