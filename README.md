@@ -38,11 +38,11 @@
 
 ---
 
-### [🤢 Perdona pero... tu código huele](https://github.com/cleancodeTrIT/CleanCodeLab/blob/main/1-perdona_pero_tu_codigo_huele.md)
+### [🤢 Perdona pero... tu código huele](https://github.com/cleancodeTrIT/CleanCodeLab/blob/master/1-perdona_pero_tu_codigo_huele.md)
 
 - Lo primero es admitir que todo código es mejorable.
 
-### [✅ Software que funciona](https://github.com/cleancodeTrIT/CleanCodeLab/blob/main/2-software_que_funciona.md)
+### [✅ Software que funciona](https://github.com/cleancodeTrIT/CleanCodeLab/blob/master/2-software_que_funciona.md)
 
 - Mejora tu código sin miedo.
 
@@ -62,4 +62,15 @@
 >
 > -- ✍️ **Robert C. Martin**
 
+---
+
 [![Training IT](./assets/trainingit.png)](https://trainingit.es)
+
+---
+
+<footer>
+  <h3>By Alberto Basalo</h3>
+  <p>
+   <a href="https://twitter.com/albertobasalo" target="blank"><img src="https://img.shields.io/twitter/follow/albertobasalo?logo=twitter&style=for-the-badge" alt="albertobasalo" /></a>
+  </p>
+</footer>
