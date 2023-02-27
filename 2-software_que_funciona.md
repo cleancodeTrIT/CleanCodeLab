@@ -43,12 +43,6 @@
 
 ---
 
-## 📝 Laboratorio
-
-### Todo el código mostrado va acompañado de sus tests.
-
-https://github.com/LabsAdemy/CleanCodeLab/
-
 > "La verdad sólo se encuentra en un lugar: el código"
 >
 > -- ✍️ **Robert C. Martin**
