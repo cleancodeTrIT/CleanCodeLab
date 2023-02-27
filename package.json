@@ -2,16 +2,16 @@
   "name": "cleancodelab",
   "version": "1.0.0",
   "description": "Clean Code course laboratories",
-  "main": "",
+  "main": "index.js",
   "scripts": {
-    "test": "jest --watch -o --verbose",
+    "test": "jest --watch -o",
     "format": "prettier --write \"./**/*.{js,ts,json}\"",
     "lint": "eslint . --ext .ts",
     "jest": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LabsAdemy/CleanCodeLab.git"
+    "url": "git+https://github.com/cleancodeTrIT/CleanCodeLab.git"
   },
   "keywords": [
     "CleanCode",
@@ -20,19 +20,19 @@
   ],
   "author": {
     "name": "Alberto Basalo",
-    "email": "learn@bitademy.com",
-    "url": "https://twitter.com/bit_ademy"
+    "email": "albertobasalo@hotmail.com.com",
+    "url": "https://albertobasalo.dev"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LabsAdemy/CleanCodeLab/issues"
+    "url": "https://github.com/cleancodeTrIT/CleanCodeLab/issues"
   },
-  "homepage": "https://bitademy.com/cleancode",
+  "homepage": "https://albertobasalo.dev",
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
-    "@types/jest": "^24.0.25",
+    "@types/jest": "^24.9.0",
     "@typescript-eslint/eslint-plugin": "^2.16.0",
     "@typescript-eslint/parser": "^2.16.0",
     "babel-jest": "^24.9.0",
@@ -40,8 +40,8 @@
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^24.9.0",
-    "ts-jest": "^24.3.0",
     "prettier": "^1.19.1",
+    "ts-jest": "^24.3.0",
     "typescript": "^3.7.4"
   }
 }
