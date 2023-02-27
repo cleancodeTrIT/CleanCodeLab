@@ -61,9 +61,3 @@ Muchas interfaces específicas son mejores que una interfaz de propósito genera
 ### Principio de inversión de la dependencia.
 
 Depender de abstracciones, no de implementaciones concretas. Resolver en ejecución usando la Inyección de Dependencias.
-
----
-
-## 📝 Laboratorio
-
-https://github.com/LabsAdemy/CleanCodeLab/tree/OBJECT/src/examples/
