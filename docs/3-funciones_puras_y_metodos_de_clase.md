@@ -23,10 +23,10 @@
 
 ## ⚠️ Límites
 
-- ✅0___0❌ _flags_
-- ✅1___2❌ _argumentos_
-- ✅8__12❌ _complejidad ciclomática_
-- ✅16_24❌ _instrucciones
+- ✅0*\_\_0❌ \_flags*
+- ✅1*\_\_2❌ \_argumentos*
+- ✅8\__12❌ \_complejidad ciclomática_
+- ✅16_24❌ \_instrucciones
 
 ---
 
@@ -79,14 +79,10 @@
 
 ```js
 function fizzzBuzz(number) {
-  if (number % 15 == 0)
-      console.log("FirzzBuzz");
-  else if (number % 3 == 0)
-      console.log("Fizz");
-  else if (number % 5 == 0)
-      console.log("Buzz");
-  else
-      console.log(i);
+  if (number % 15 == 0) console.log('FirzzBuzz');
+  else if (number % 3 == 0) console.log('Fizz');
+  else if (number % 5 == 0) console.log('Buzz');
+  else console.log(i);
 }
 ```
 
@@ -98,14 +94,10 @@ function fizzzBuzz(number) {
 
 ```js
 [1, 2, 3].forEach(function fizzzBuzz(number) {
-   if (number % 15 == 0)
-        console.log("FirzzBuzz");
-    else if (number % 3 == 0)
-        console.log("Fizz");
-    else if (number % 5 == 0)
-        console.log("Buzz");
-    else
-        console.log(i);
+  if (number % 15 == 0) console.log('FirzzBuzz');
+  else if (number % 3 == 0) console.log('Fizz');
+  else if (number % 5 == 0) console.log('Buzz');
+  else console.log(i);
 });
 ```
 
@@ -138,16 +130,6 @@ function fizzzBuzz(number) {
 
 ---
 
-## 📝 Laboratorio
+- [⏭️ Next: 🗂️ DATA: Abstracciones de información.](https://github.com/cleancodeTrIT/CleanCodeLab/tree/DATA)
 
-https://github.com/LabsAdemy/CleanCodeLab/tree/FUNCTION/src/examples/3-functions
-
-> "La verdad sólo se encuentra en un lugar: el código"
->
-> -- ✍️ **Robert C. Martin**
-
----
-
-- [⏭️ Next: 🗂️ DATA: Abstracciones de información.](https://github.com/LabsAdemy/CleanCodeLab/tree/DATA)
-
-- [⏮️ Back: 🔀 FUNCTION: Organización de sentencias.](https://github.com/LabsAdemy/CleanCodeLab/tree/FUNCTION)
+- [⏮️ Back: 🔀 FUNCTION: Organización de sentencias.](https://github.com/cleancodeTrIT/CleanCodeLab/tree/FUNCTION)

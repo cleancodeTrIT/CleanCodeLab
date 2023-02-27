@@ -10,6 +10,10 @@
 >
 > -- ✍️ **Robert C. Martin**
 
+# Updated docs
+
+- [Methods and Functions Rule ONE to write Clean TypeScript](https://albertobasalo.medium.com/functions-rule-one-326ba019a8dd?sk=562a8aa076cb4fae1dcfdbb9a5e9a82d)
+
 ## Documentación
 
 ### [👉 1 - Declaración, asignación e invocación](./docs/1-declaracion_asignacion_e_invocacion.md)

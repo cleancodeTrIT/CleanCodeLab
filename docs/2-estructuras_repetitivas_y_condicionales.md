@@ -50,8 +50,8 @@
 
 ## ⚠️ Límites
 
-- ✅1___2❌ _niveles de anidamiento_
-- ✅4___8❌ _instrucciones por bloque_
+- ✅1*\_\_2❌ \_niveles de anidamiento*
+- ✅4*\_\_8❌ \_instrucciones por bloque*
 
 > Te obliga a extraer código a funciones.
 
@@ -64,16 +64,6 @@
 
 ---
 
-## 📝 Laboratorio
-
-https://github.com/LabsAdemy/CleanCodeLab/tree/FUNCTION/src/examples/2-blocks
-
-> "La verdad sólo se encuentra en un lugar: el código"
->
-> -- ✍️ **Robert C. Martin**
-
----
-
 - [⏭️ Next: 🧩 Funciones puras y metodos de clase.](./3-funciones_puras_y_metodos_de_clase.md)
 
-- [⏮️ Back: 🔀 FUNCTION: Organización de sentencias.](https://github.com/LabsAdemy/CleanCodeLab/tree/FUNCTION)
+- [⏮️ Back: 🔀 FUNCTION: Organización de sentencias.](https://github.com/cleancodeTrIT/CleanCodeLab/tree/FUNCTION)
