@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LabsAdemy/CleanCodeLab.git"
+    "url": "git+https://github.com/cleancodeTrIT/CleanCodeLab.git"
   },
   "keywords": [
     "CleanCode",
@@ -20,14 +20,14 @@
   ],
   "author": {
     "name": "Alberto Basalo",
-    "email": "learn@bitademy.com",
-    "url": "https://twitter.com/bit_ademy"
+    "email": "albertobasalo@hotmail.com.com",
+    "url": "https://albertobasalo.dev"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LabsAdemy/CleanCodeLab/issues"
+    "url": "https://github.com/cleancodeTrIT/CleanCodeLab/issues"
   },
-  "homepage": "https://bitademy.com/cleancode",
+  "homepage": "https://albertobasalo.dev",
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
