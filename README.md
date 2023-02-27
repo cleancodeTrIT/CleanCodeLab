@@ -7,6 +7,10 @@
 >
 > -- ✍️ **Linus Torvalds**.
 
+# Updated docs
+
+- [Data models in TypeScript, from primitive obsession to clean entities](https://albertobasalo.medium.com/evolution-of-data-models-from-primitive-to-clean-entities-in-typescript-5d45aaee0542?sk=f75f3b3c67d24762a575407784b531fb)
+
 ## Documentación
 
 ## [🗃️ Cohesion de primitivos](./docs/1-cohesion_de_primitivos.md)

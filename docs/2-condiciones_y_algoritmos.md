@@ -20,13 +20,3 @@
 ---
 
 ![Estructuras de datos por todas partes](./data-everywhere.jpg)
-
----
-
-## 📝 Laboratorio
-
-https://github.com/LabsAdemy/CleanCodeLab/tree/DATA/src/examples/2-algorithms
-
-> "La verdad sólo se encuentra en un lugar: el código"
->
-> -- ✍️ **Robert C. Martin**
