@@ -1,6 +1,6 @@
 # 🧼 CleanCode Lab
 
-> Documentación y ejemplos para el [Curso de código Limpio de TrainingIT](https://trainingit.es/curso-clean-code/)
+> Documentación y ejemplos para el [Curso de código Limpio de TrainingIT](https://www.trainingit.es/index.php/producto/curso-codigo-limpio/)
 
 ## Código limpio y artesanía del software
 
