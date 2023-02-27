@@ -29,7 +29,7 @@
 
 - Define listas permitidas para acciones comunes.
 
- `get | set  - read | write - select | insert`
+`get | set - read | write - select | insert`
 
 - Clarifica añadiendo sustantivos, adverbios o preposiciones. ❇️
 
@@ -38,21 +38,11 @@
 ## 🤔 Piensa en mi
 
 ### 😲 No me sorprendas
+
 ### 😕 No me hagas pensar
 
-
 ---
 
-## 📝 Laboratorio
+- [⏭️ Next: 🔀 FUNCTION: Organización de sentencias.](https://github.com/cleancodeTrIT/CleanCodeLab/tree/FUNCTION)
 
-https://github.com/LabsAdemy/CleanCodeLab/tree/NAME/src/examples/2-verbs
-
-> "La verdad sólo se encuentra en un lugar: el código"
->
-> -- ✍️ **Robert C. Martin**
-
----
-
-- [⏭️ Next: 🔀 FUNCTION: Organización de sentencias.](https://github.com/LabsAdemy/CleanCodeLab/tree/FUNCTION)
-
-- [⏮️ Back: 📘 NAME: Escribir para leer](https://github.com/LabsAdemy/CleanCodeLab/tree/NAME)
+- [⏮️ Back: 📘 NAME: Escribir para leer](https://github.com/cleancodeTrIT/CleanCodeLab/tree/NAME)

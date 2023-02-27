@@ -14,7 +14,7 @@
 
 ---
 
-![Perdone pero... le huele el código](https://labsademy.github.io/cleancodelab/assets/your-code-smells.jpg)
+![Perdone pero... le huele el código](./assets/your-code-smells.jpg)
 
 > Perdone, le huele el código.
 
@@ -26,14 +26,9 @@
 
 - Con el paso del tiempo, digamos que el olor va a peor.
 
-
 > "Cualquier código tuyo que no hayas mirado últimamente, es como si lo hubiese escrito otro."
 >
 > -- ✍️ **Ley de Eagleson**
-
----
-
-[¿Lo he puesto yo? ¿Estaba aquí? ... ](https://twitter.com/quinHD/status/1087817606923542528?s=20)
 
 ---
 
@@ -51,5 +46,4 @@
 
 ...
 
-5️⃣. Keep It Simple, (*not*) Stupid **(KISS)**
-
+5️⃣. Keep It Simple, (_not_) Stupid **(KISS)**

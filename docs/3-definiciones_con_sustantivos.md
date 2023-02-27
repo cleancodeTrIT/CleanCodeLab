@@ -30,7 +30,7 @@
 
 ---
 
-![wtf-naming](https://github.com/labsademy/cleancodelab/raw/NAME/assets/naming.png)
+![wtf-naming](./assets/naming.png)
 
 ### 🔮 Reduce WTF!
 
@@ -42,18 +42,8 @@
 
 - [Clean Code Applied to JavaScript — Part II. Variables](https://dev.to/carlillo/clean-code-applied-to-javascript-part-ii-variables-pc)
 
-
- ## 📝 Laboratorio
-
-https://github.com/LabsAdemy/CleanCodeLab/blob/NAME/docs/jest-tests.md
-https://github.com/LabsAdemy/CleanCodeLab/tree/NAME/src/examples/1-nouns
-
-> "La verdad sólo se encuentra en un lugar: el código"
->
-> -- ✍️ **Robert C. Martin**
-
 ---
 
 - [⏭️ Next: 💪 4 - Acciones con verbos](./4-acciones_con_verbos.md)
 
-- [⏮️ Back: 📘 NAME: Escribir para leer](https://github.com/LabsAdemy/CleanCodeLab/tree/NAME)
+- [⏮️ Back: 📘 NAME: Escribir para leer](https://github.com/cleancodeTrIT/CleanCodeLab/tree/NAME)

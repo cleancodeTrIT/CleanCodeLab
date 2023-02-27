@@ -18,9 +18,9 @@
 
 ## ⚠️Límites
 
-- ✅80____120❌ _caracteres por línea_
-- ✅1_______2❌ _líneas en blanco seguidas_
-- ✅100___200❌ _líneas por fichero_
+- ✅80\__\_\_120❌ \_caracteres por línea_
+- ✅1**\_\_\_**2❌ _líneas en blanco seguidas_
+- ✅100*\_\_200❌ \_líneas por fichero*
 
 ---
 
@@ -31,23 +31,23 @@
 
 ---
 
-![Tabs vs Spaces](https://github.com/labsademy/cleancodelab/raw/NAME/assets/tabs_vs_spaces.png)
+![Tabs vs Spaces](./assets/tabs_vs_spaces.png)
 
 ---
 
 ### ⚔️ Evita conflictos trasladando la decisión a otros:
 
-  - Tabs vs Spaces
-  - Comillas simples o dobles
-  - Posición de llaves, paréntesis, operadores...
+- Tabs vs Spaces
+- Comillas simples o dobles
+- Posición de llaves, paréntesis, operadores...
 
 ---
 
 ### 🛠 Herramientas de limpieza
 
-  - [Prettier](https://prettier.io/)
-  - [Beautify](https://www.npmjs.com/package/js-beautify)
-  - Buscar según IDE y lenguaje.
+- [Prettier](https://prettier.io/)
+- [Beautify](https://www.npmjs.com/package/js-beautify)
+- Buscar según IDE y lenguaje.
 
 > Aplicable a todo tipo de lenguajes.
 
@@ -69,16 +69,6 @@
 
 ---
 
-## 📝 Laboratorio
-
-https://github.com/LabsAdemy/CleanCodeLab/blob/NAME/docs/size-config.md
-
-> "La verdad sólo se encuentra en un lugar: el código"
->
-> -- ✍️ **Robert C. Martin**
-
----
-
 - [⏭️ Next: 📫 3 - Definiciones con sustantivos](./3-definiciones_con_sustantivos.md)
 
-- [⏮️ Back: 📘 NAME: Escribir para leer](https://github.com/LabsAdemy/CleanCodeLab/tree/NAME)
+- [⏮️ Back: 📘 NAME: Escribir para leer](https://github.com/cleancodeTrIT/CleanCodeLab/tree/NAME)
